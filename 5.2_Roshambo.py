@@ -50,10 +50,10 @@ while play:
         continue
     print("1. Play again")
     print("2. Stop playing\n")
-    plyagn = int(input("What do you want to do?"))
-    if plyagn == 1:
+    plyagn = input("What do you want to do?")
+    if plyagn == "1":
         play = True
-    elif plyagn == 2:
+    elif plyagn == "2":
         play = False
     else:
         print("Invalid command, quitting game")
